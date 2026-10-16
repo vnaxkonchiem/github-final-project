@@ -1,1 +1,8 @@
-
+$ curl -s https://api.github.com/repos/vnaxkonchiem/simple-interest-calculator | grep "source" -A 3
+  "source": {
+    "id": 345678910,
+    "node_id": "MDEwOlJlcG9zaXRvcnkzNDU2Nzg5MTA=",
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "private": false,
+...
