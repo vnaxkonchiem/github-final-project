@@ -1,4 +1,11 @@
-$ curl -s https://api.github.com/repos/vnaxkonchiem/github-final-project | grep "source" -A 3
+$ curl -s https://api.github.com/repos/vnaxkonchiem/github-final-project | grep -E "full_name|fork|parent|source" -A 5
+  "fork": true,
+  "parent": {
+    "id": 345678910,
+    "node_id": "MDEwOlJlcG9zaXRvcnkzNDU2Nzg5MTA=",
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "private": false,
   "source": {
     "id": 345678910,
     "node_id": "MDEwOlJlcG9zaXRvcnkzNDU2Nzg5MTA=",
