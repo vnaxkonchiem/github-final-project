@@ -1,8 +1,11 @@
-$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all | grep "head" -A 5
-  "head": {
-    "label": "vnaxkonchiem:bug-fix-typo",
-    "ref": "bug-fix-typo",
-    "sha": "e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3",
-    "user": {
-      "login": "vnaxkonchiem",
-      "id": 12345678,
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all | grep -E "head|vnaxkonchiem" -A 5
+    "head": {
+      "label": "vnaxkonchiem:bug-fix-typo",
+      "ref": "bug-fix-typo",
+      "sha": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+      "user": {
+        "login": "vnaxkonchiem",
+        "id": 12345678,
+      "repo": {
+        "name": "github-final-project",
+        "full_name": "vnaxkonchiem/github-final-project",
