@@ -6,4 +6,3 @@ $ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introd
     "user": {
       "login": "vnaxkonchiem",
       "id": 12345678,
-...
