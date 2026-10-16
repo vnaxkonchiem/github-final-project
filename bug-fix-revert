@@ -1,0 +1,9 @@
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all | grep "head" -A 5
+  "head": {
+    "label": "vnaxkonchiem:bug-fix-typo",
+    "ref": "bug-fix-typo",
+    "sha": "e4f5g6h7i8j9k0l1m2n3o4p5q6r7s8t9u0v1w2x3",
+    "user": {
+      "login": "vnaxkonchiem",
+      "id": 12345678,
+...
